@@ -1,0 +1,59 @@
+#logo{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 60px;
+}
+
+.keyboard {
+    width: 800px;
+    display: block;
+    margin: auto;
+  }
+
+.key_button {
+    box-sizing: border-box;
+    line-height: 80px;
+    font-size: 22px;
+    text-align: center;
+    width: 60px;
+    color: #555;
+    cursor: pointer;
+    margin: 8px 8px;
+    height: 60px;
+    border-color: #f2f2f2;
+    border-style: solid;
+    text-shadow: 0 0.5px 1px #777, 0 2px 6px #f2f2f2;
+    border-width: 1px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, #f9f9f9 0%, #D2D2D2 80%, #c0c0c0 100%);
+    font-family: sans-serif;
+    display: inline-block;
+    transition: box-shadow 0.3s ease, transform 0.15s ease;
+    box-shadow: 0 0 1px #888,0 1px 0 #fff, 0 6px 0 #C0C0C0, 0 8px 17px rgba(#444, 0.4), 2px 1px 4px rgba(#444, 0.25), -2px 1px 4px rgba(#444, 0.25), 0 9px 16px rgba(#444, 0.1);
+  }
+
+  .key_button:hover,
+    .key_button:focus {
+      box-shadow: 0 0 1px #888,0 1px 0 #fff, 0 4px 0 #C0C0C0, 0 2px 35px rgba(#444, 0.3), 2px 2px 4px rgba(#444, 0.25), -2px 2px 4px rgba(#444, 0.25), 0 7px 4px rgba(#444, 0.1);
+      transform: translateY(2px);
+    }
+    .active {
+      transform: translateY(6px); 
+      color: red;
+    }
+
+    .active:hover{
+      cursor: not-allowed;
+    }
+
+    #dash{
+      width: 40px;
+      margin: .7em;
+      border: 1px solid #C0C0C0;
+      border-radius: 8px;
+      text-align: center;
+      display: inline-block; 
+    }
+    
+    .dashes{
+      height: 4em;
+    }
