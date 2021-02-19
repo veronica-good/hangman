@@ -5,27 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hangman</title>
+    
     <link rel="stylesheet" href="index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
 
-        <h1 id="logo" class='d-flex justify-content-center'>Hangman</h1>
-    
-    <div class="keyboard">
-        <div class='a key_button'>A</div>
-        <div class='b key_button'>B</div>
-        <div class='c key_button'>C</div>
-        <div class='d key_button'>D</div>
-        <div class='e key_button'>E</div>
-        <div class='f key_button'>F</div>
-        <div class='g key_button'>G</div>
-        <div class='h key_button'>H</div>
-        <div class='i key_button'>I</div>
-        <div class='j key_button'>J</div>
+    <h1 id="logo" class='d-flex justify-content-center'>Hangman</h1>
+    <div class="d-flex justify-content-center m-2">
+        <button class="start btn btn-light btn-lg btn-outline-secondary">Start new game</button>
+    </div>
+    <div id='score' class="d-flex justify-content-center">
+
+    </div>
+    <div class="keyboard" >
+        <div class="d-flex justify-content-center">
+            <div class='a key_button'>A</div>
+            <div class='b key_button'>B</div>
+            <div class='c key_button'>C</div>
+            <div class='d key_button'>D</div>
+            <div class='e key_button'>E</div>
+            <div class='f key_button'>F</div>
+            <div class='g key_button'>G</div>
+            <div class='h key_button'>H</div>
+            <div class='i key_button'>I</div>
+            <div class='j key_button'>J</div>
+        </div>
+        
         <div class="d-flex justify-content-center">
             <div class='k key_button'>K</div>
             <div class='l key_button'>L</div>

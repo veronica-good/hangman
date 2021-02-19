@@ -3,6 +3,16 @@
   font-size: 60px;
 }
 
+body{
+  width: 100vw;
+  height: 100vw;
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+#score{
+  font-family: 'Press Start 2P', cursive;
+  
+}
+
 .keyboard {
     width: 800px;
     display: block;
@@ -39,10 +49,6 @@
     .active {
       transform: translateY(6px); 
       color: red;
-    }
-
-    .active:hover{
-      cursor: not-allowed;
     }
 
     #dash{
